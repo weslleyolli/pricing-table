@@ -7,8 +7,9 @@ module.exports = {
         'titilium': ['Titillium', 'sans-serif'],
       },
       colors: {
+        'purple100': '#996DFF',
         'purple200': '#7C3AED',
-        'gray900': '#0F172A'
+        'gray900': '#0F172A',
       }
     },
   },
