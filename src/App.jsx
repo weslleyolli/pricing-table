@@ -1,19 +1,91 @@
 import "./styles/global.css"
+import checked from "./assets/checked.svg"
+import info from "./assets/info.svg"
 
 
 function App() {
   return (
-    <div className="bg-black w-screen h-screen">
-      <div>
-        <div>
-
+    <div className="bg-gray-50 w-screen h-screen flex justify-center items-center gap-8">
+      <div className="w-96 h-2/3 border border-gray-200 bg-white rounded-lg pt-12 p-8 flex flex-col gap-8 hover:border-purple200">
+        <div className="flex flex-col gap-8">
+          <div>
+            <span className="font-semibold text-base text-purple200">For you start</span>
+          </div>
+          <div className="flex justify-between">
+            <h1 className="font-bold text-3xl">Essential</h1>
+            <div className="flex items-center gap-1">
+              <span className="text-base">$</span>
+              <div className="flex items-center">
+                <h1 className="font-bold text-2xl">1997</h1>
+                <h1 className="font-bold">/mounth</h1>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-
+        <button className="w-full border-2 border-black rounded px-6 py-4 hover:bg-gray900 hover:text-white">Subscribe now</button>
+        <div className="w-full h-0.5 bg-gray-200"></div>
+        <div className="flex flex-col gap-2">
+          <div className="flex justify-between items-center">
+            <div className="flex gap-2">
+              <img src={checked} alt="" />
+              <p>Until 3 user</p>
+            </div>
+            <div>
+              <img src={info} alt="" />
+            </div>
+          </div>
+          <div className="flex justify-between items-center">
+            <div className="flex gap-2">
+              <img src={checked} alt="" />
+              <p>Self service</p>
+            </div>
+            <div>
+              <img src={info} alt="" />
+            </div>
+          </div>
         </div>
-        <div>
-
+      </div>
+      <div className="w-96 h-2/3 rounded-lg bg-gray900 border border-gray-200 pt-12 p-8 flex flex-col gap-8 hover:border-purple200">
+        <div className="flex flex-col gap-8">
+          <div>
+            <span className="font-semibold text-base text-purple200">For you start</span>
+          </div>
+          <div className="flex justify-between">
+            <h1 className="font-bold text-3xl">Essential</h1>
+            <div className="flex items-center gap-1">
+              <span className="text-base">$</span>
+              <div className="flex items-center">
+                <h1 className="font-bold text-2xl">1997</h1>
+                <h1 className="font-bold">/mounth</h1>
+              </div>
+            </div>
+          </div>
         </div>
+        <button className="w-full border-2 border-black rounded px-6 py-4 hover:bg-gray900 hover:text-white">Subscribe now</button>
+        <div className="w-full h-0.5 bg-gray-200"></div>
+        <div className="flex flex-col gap-2">
+          <div className="flex justify-between items-center">
+            <div className="flex gap-2">
+              <img src={checked} alt="" />
+              <p>Until 3 user</p>
+            </div>
+            <div>
+              <img src={info} alt="" />
+            </div>
+          </div>
+          <div className="flex justify-between items-center">
+            <div className="flex gap-2">
+              <img src={checked} alt="" />
+              <p>Self service</p>
+            </div>
+            <div>
+              <img src={info} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="w-96 h-2/3 border border-green-400">
+
       </div>
     </div>
   )
