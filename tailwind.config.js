@@ -10,6 +10,9 @@ module.exports = {
         'purple100': '#996DFF',
         'purple200': '#7C3AED',
         'gray900': '#0F172A',
+      },
+      screens: {
+        'mobile': {'max':'576px'}
       }
     },
   },
