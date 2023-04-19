@@ -12,7 +12,7 @@ module.exports = {
         'gray900': '#0F172A',
       },
       screens: {
-        'mobile': {'max':'576px'}
+        'mobile': {'max':'769px'}
       }
     },
   },
