@@ -11,12 +11,12 @@ function App() {
           <div>
             <span className="font-semibold text-base text-purple200">For you start</span>
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-between gap-3">
             <h1 className="font-bold text-3xl">Essential</h1>
-            <div className="flex items-center gap-1">
+            <div className="flex items-end gap-1">
               <span className="text-base">$</span>
               <div className="flex items-center">
-                <h1 className="font-bold text-2xl">19,97</h1>
+                <h1 className="font-bold text-2xl mobile:text-base">19,97</h1>
                 <h1 className="font-bold">/mounth</h1>
               </div>
             </div>
@@ -50,12 +50,12 @@ function App() {
           <div>
             <span className="font-semibold text-base text-purple100">For you to travel</span>
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-between mobile:gap-3">
             <h1 className="font-bold text-3xl">Ultimate</h1>
-            <div className="flex items-center gap-1">
+            <div className="flex items-end gap-1">
               <span className="text-base">$</span>
               <div className="flex items-center">
-                <h1 className="font-bold text-2xl">29,97</h1>
+                <h1 className="font-bold text-2xl mobile:text-base">29,97</h1>
                 <h1 className="font-bold">/mounth</h1>
               </div>
             </div>
