@@ -6,7 +6,7 @@ import info from "./assets/info.svg"
 function App() {
   return (
     <div className="bg-gray-100 w-screen h-screen mobile:h-full flex mobile:flex-col justify-center items-center gap-8 ">
-      <div className="w-1/4 mobile:w-fit h-2/3 border border-gray-200 bg-white rounded-lg pt-12 p-8 flex flex-col gap-8 hover:border-purple200">
+      <div className="w-1/4 mobile:w-fit h-2/3 border border-gray-200 bg-white rounded-lg pt-12 p-8 flex flex-col gap-8 hover:border-purple200 mobile:mx-3">
         <div className="flex flex-col gap-8">
           <div>
             <span className="font-semibold text-base text-purple200">For you start</span>
@@ -45,7 +45,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="w-1/4 mobile:w-fit h-2/3 rounded-lg border bg-gray900 pt-12 p-8 flex flex-col gap-8 text-white hover:border-purple200 ">
+      <div className="w-1/4 mobile:w-fit h-2/3 rounded-lg border bg-gray900 pt-12 p-8 flex flex-col gap-8 text-white hover:border-purple200 mobile:mx-3">
         <div className="flex flex-col gap-8">
           <div>
             <span className="font-semibold text-base text-purple100">For you to travel</span>
@@ -102,7 +102,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="w-1/4 mobile:w-fit h-2/3 border border-gray-200 bg-white rounded-lg pt-12 p-8 flex flex-col gap-8 hover:border-purple200">
+      <div className="w-1/4 mobile:w-fit h-2/3 border border-gray-200 bg-white rounded-lg pt-12 p-8 flex flex-col gap-8 hover:border-purple200 mobile:mx-3">
         <div className="flex flex-col gap-8">
           <div>
             <span className="font-semibold text-base text-purple100">For you company</span>
